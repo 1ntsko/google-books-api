@@ -1,0 +1,42 @@
+.container {
+    margin-top: 150px;
+}
+.details {
+    display: flex;
+    justify-content: center;
+    margin-left: 0px;
+}
+.image-area img {
+    width: 20vw;
+    height: 30vw;
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.32);
+}
+.description {
+    display: flex;
+    flex-direction: column;
+    line-height: 2rem;
+    width: 50vw;
+    line-height: 1.5rem;
+}
+.gray {
+    color: gray;
+}
+@media (max-width: 1220px) {
+    .details {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .image-area {
+        margin-bottom: 2rem;
+        margin-left: auto;
+        width: 100vw;
+    }
+    img {
+        margin: auto;
+    }
+    .description {
+        width: 80vw;
+    }
+    
+}

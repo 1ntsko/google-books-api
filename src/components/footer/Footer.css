@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+footer {
+    background-color: #1F2A33;
+    color: #E7825F;
+    width: 100vw;
+    height: auto;
+    margin-top: 80vh;
+}
+.conteiner {
+    width: 1080px;
+    padding: 60px 40px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+.border {
+    width: 90%;
+    margin: auto;
+    background-color: red;
+}
+.social {
+    text-align: center;
+    margin-top: 2rem;
+}
+.social a {
+    text-decoration: none;
+    color: white;
+}
+.social .fb:hover {
+    background-color: #1877f2;
+}
+.social .github:hover {
+    background-color: black;
+}
+.social .linkedin:hover {
+    background-color: #0E76A8;
+}
+.icon {
+    background-color: orange;
+    color: white;
+    width: 37px;
+    height: 37px;
+    border-radius: 100px;
+    text-align: center;
+    margin: 0px 10px 0px 0px;
+    line-height: 37px;
+    display: inline-block;
+    margin-bottom: 2rem;
+    cursor: pointer;
+}
+.icon i {
+    text-align: center;
+}
+.first-row p {
+    color: white;
+}
+.first-row {
+    width: 30%;
+}
+.contact-us {
+    margin-top: 40px;
+}
+.contact-us span {
+    color: white;
+}
+.second-row {
+    width: 20%;
+}
+.second-row p {
+    color: white;
+}
+.third-row {
+    width: 2    0%;
+}
+.third-row p {
+    color: white;
+}
+.fourth-row {
+    width: 20%;
+}
+.fourth-row input {
+    outline: none;
+}
+.fourth-row span {
+    background-color: orange;
+    color: black;
+    padding: 4px 8px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+@media (max-width: 916px) {
+    .conteiner {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .first-row {
+        width: 50%;
+        text-align: center;
+    }
+    .second-row, .third-row, .fourth-row {
+        width: 50%;
+        margin-top: 30px;
+    }
+}
+@media (max-width: 789px) {
+    .conteiner {
+        display: flex;
+        flex-direction: column;
+    }
+    .first-row {
+        width: 100%;
+        text-align: center;
+    }
+    .second-row {
+        width: 100%;
+        margin-top: 30px;
+        text-align: center;
+    }
+    .third-row {
+        width: 100%;
+        margin-top: 30px;
+        text-align: center;
+    }
+    .fourth-row {
+        width: 100%;
+        margin-top: 30px;
+        text-align: center;
+    }
+}

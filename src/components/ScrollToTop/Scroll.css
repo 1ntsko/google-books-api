@@ -1,0 +1,27 @@
+html {
+    scroll-behavior: smooth;
+}
+.arrow-btn {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+.arrow-btn a {
+    height: 39px;
+    width: 37px;
+    text-align: center;
+    background-color: #1F2A33;
+    display: block;
+    border-radius: 3px;
+    cursor: pointer;
+    color: #E7825F;
+    line-height: 39px;
+    font-size: 25px;
+    text-align: center;
+    transition: .3s;
+}
+.arrow-btn a:hover {
+    border-radius: 100px;
+    transition: .5s;
+    color: #E7825F;
+}
